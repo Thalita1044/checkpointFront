@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="style.css">
+      <title>Cidade de São Paulo</title>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+       html *{
+         margin: 0;
+         padding: 0;
+       }
+       #container{
+      background-image: url("img/vale.png") ;
+      background-repeat: no-repeat;  
+      overflow-x:hidden; /*atributo usado para retirar o scroll horizontal */
+      color:#000;
+      }
+      
+     #titulo {
+       background-color: gray;
+       font-size: 40px;
+       font-family: "Rubik" ; 
+       text-align: center;
+       width: 100%;
+        padding: 25px;
+     }
+         #texto {
+         
+           font-family: "Roboto";
+           font-size: 18px;
+           font-weight: bold;
+           text-align: center;
+           padding: 25px;
+           letter-spacing: .1em;
+         }
+         span, strong{
+           background-color: gray;
+          font-weight: bold;
+
+         }
+         #video{
+           
+           text-align: center;
+           overflow-y: hidden;
+         }
+         .informacao {
+           text-align: center;
+           font-style: italic;
+          font-weight: bold;
+           font-size: 35px;
+           font-family: "Rubik" ; 
+           
+           padding-top: 30px;
+        }
+
+       ul{
+         text-align: center;
+         font-weight: bold;
+        font-family: "Roboto";
+       font-size: 18px;
+       letter-spacing: .1em;
+      
+        padding: 20px;
+      }
+
+       #rodape {
+    text-align: center;
+    padding: 20px;
+}
+
+.icones {
+    margin: 20px;
+    width: 70px;
+    height: 70px;
+}
+        </style>
+  </head>
+
+  <body id="container">
+    
+  
+      <header id="container_menu">
+          <h1 id="titulo">Cidade de São Paulo</h1>
+          <p id="texto"><strong>São Paulo:</strong> A cidade de São Paulo é a capital do estado de mesmo nome e sede da Região Metropolitana de São Paulo. <span>A capital paulista possui 12 milhões de habitantes, </span>sendo a mais populosa do Brasil. Está inserida no bioma Mata Atlântica, tendo clima predominantemente Subtropical Úmido. O tempo, entretanto, pode sofrer bruscas variações durante o dia.
+              </p>
+      </header>
+
+      <main id="video">
+          <iframe width="1280" height="720" src="https://www.youtube.com/embed/sylKwi0HeXI" title="YouTube video player"
+          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+
+          <h2 class="informacao">Curiosidades</h2>
+          <ul>
+              <li>São Paulo contém uma cratera habitável.</li>
+              <li>Cidade mais visitada do Brasil.</li>
+              <li>Um dos melhores metrôs do mundo.</li>
+              <li>A Avenida Paulista já teve  o nome de Carlos de Campos.</li>
+          </ul>
+      </main>
+
+      <footer id="rodape">
+          <a href="https://www.instagram.com/prefsp/?hl=pt-br" target="_blank"><img src="img/instagram.png" class="icones"></a>
+          <a href="https://www.youtube.com/channel/UCRgHhRLeLXeu3E89haOlttg" target="_blank"><img src="img/youtube.png" class="icones"></a>
+      </footer>
+  </body>
+
+</html>
